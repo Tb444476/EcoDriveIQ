@@ -1,0 +1,17 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #dee2e6;
+}
+
+label {
+  color: #333;
+}
+
+footer {
+  margin-top: auto;
+}

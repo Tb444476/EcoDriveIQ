@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoDriveIQ - Home</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- ✅ Navbar
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+    <a class="navbar-brand" href="#">🚗 EcoDriveIQ</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="vehicles.html">My Vehicles</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Compare</a></li>
+        <li class="nav-item"><a class="nav-link text-danger" href="index.html" onclick="logout()">Logout</a></li>
+      </ul>
+    </div>
+  </nav> -->
+
+  <!-- ✅ Enhanced Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 px-4 shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-3 fw-bold text-success" href="#">
+      <img src=".\images\car-services.png" width="50" height="50" class="d-inline-block align-text-top me-2" />
+      EcoDriveIQ
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav fs-5 gap-3">
+        <li class="nav-item"><a class="nav-link" href="dashboard.html">📊 Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="vehicle.html">🚗 My Vehicles</a></li>
+        <li class="nav-item"><a class="nav-link" href="compare.html">⚖️ Compare</a></li>
+<li class="nav-item"><a class="nav-link" href="profile.html">👨‍💻 Profile</a></li>
+        <li class="nav-item"><a class="nav-link text-danger fw-semibold" href="index.html" onclick="logout()">🚪 Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- ✅ Hero Section -->
+  <section class="hero text-white text-center d-flex align-items-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Drive Smart. Drive Green.</h1>
+      <p class="lead">Monitor, Optimize & Compare Your Vehicle Performance with EcoDriveIQ.</p>
+      <a href="dashboard.html" class="btn btn-success btn-lg mt-3">Go to Dashboard</a>
+    </div>
+  </section>
+
+
+  <section class="my-5 text-center">
+  <h2 class="mb-4">Experience Your Drive in 3D</h2>
+  <div class="car-container">
+    <div class="car">
+      <div class="top"></div>
+      <div class="body"></div>
+      <div class="wheel front"></div>
+      <div class="wheel back"></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="container my-5">
+  <h2 class="text-center mb-4">Your Vehicle Insights</h2>
+  <div class="row g-4">
+    <!-- Panel 1: EcoScore -->
+    <div class="col-md-4">
+      <div class="card text-white bg-success h-100">
+        <div class="card-body">
+          <h5 class="card-title">EcoScore</h5>
+          <p class="card-text display-6">82 / 100</p>
+          <p class="card-text">Your driving efficiency is excellent!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 2: Active Alerts -->
+    <div class="col-md-4">
+      <div class="card text-white bg-danger h-100">
+        <div class="card-body">
+          <h5 class="card-title">Active Alerts</h5>
+          <p class="card-text display-6">2</p>
+          <p class="card-text">Brake wear & low tire pressure</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 3: Avg Fuel Efficiency -->
+    <div class="col-md-4">
+      <div class="card text-white bg-primary h-100">
+        <div class="card-body">
+          <h5 class="card-title">Fuel Efficiency</h5>
+          <p class="card-text display-6">14.5 km/l</p>
+          <p class="card-text">Keep up the efficient driving!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ✅ Feature Highlights -->
+  <section class="container text-center py-5">
+    <h2 class="mb-4">What You Can Do</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card border-0 shadow-lg p-3">
+          <h5 class="card-title">📊 Real-time Dashboard</h5>
+          <p class="card-text">View fuel usage, emissions, speed & engine data updated live.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow-lg p-3">
+          <h5 class="card-title">🌱 EcoScore</h5>
+          <p class="card-text">Track your driving behavior with our intelligent EcoScore engine.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow-lg p-3">
+          <h5 class="card-title">🚨 Predictive Alerts</h5>
+          <p class="card-text">Stay informed about potential issues before they become problems.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+ <footer class="bg-dark text-light py-4 mt-5">
+  <div class="container text-center">
+    <p>&copy; 2025 EcoDriveIQ. All Rights Reserved.</p>
+    <p>
+      <a href="#" class="text-light text-decoration-none me-3">Privacy Policy</a>
+      <a href="#" class="text-light text-decoration-none me-3">Terms</a>
+      <a href="mailto:support@ecodriveiq.com" class="text-light text-decoration-none">Contact</a>
+    </p>
+  </div>
+</footer>
+
+
+  <script>
+    function logout() {
+      localStorage.removeItem("userId");
+    }
+  </script>
+
+</body>
+</html>
